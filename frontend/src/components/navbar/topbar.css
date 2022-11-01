@@ -1,0 +1,43 @@
+.topbarcontainer{
+    height:67px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  color:white;
+  cursor: pointer;
+ cursor: pointer;
+}
+.topleft{
+    flex: 0.5;
+}
+.topcenter{
+flex: 2;
+}
+.topcenterlink{
+    margin: 15px;
+    color: white;
+    
+    
+}
+.link{
+    text-decoration: none;
+}
+.topcenterlink:hover{
+  color: rgb(230, 191, 109);
+  cursor: pointer;
+}
+.topright{
+   
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+   
+}

@@ -1,0 +1,92 @@
+.regestrationbody{
+    margin-top:-20px;
+
+}
+.topbar{
+    height:67px;
+    width: 100%;
+    background-color: blueviolet;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    position: relative;
+}
+.regestrationfrom{
+background-color: rgb(231, 204, 204);
+width: 400px;
+height:fit-content;
+margin-top: 5px;
+margin-left: 30%;
+text-align: center;
+ border: 3px solid;
+  padding: 98px;
+  box-shadow: 10px 10px #888888;
+  
+}
+.gender{
+    font-size:20px;
+    margin-bottom:10px ;  
+}
+.radiobt{
+    margin:5px;
+
+}
+
+.flex{
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+}
+h1{
+    text-align: center;
+}
+.mainform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.rgbtn{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left:45px;
+    background-color: rebeccapurple;
+    color: wheat;
+    margin-top:50px;
+    cursor: pointer;
+    margin-bottom: -80px;
+}
+.rshowbtn{
+
+   height:38px;
+   cursor: pointer;
+   background-color:blue;
+   color: white;
+   margin-top: 10px;
+   border-radius: 10px;
+
+
+}
+.errors{
+    color: red;
+    margin-top: -10px;
+    font-size: 10px;
+}
+.showPass{
+   display: flex;
+   flex-direction: row;
+}
+.footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.paragraph{
+   text-decoration: none;
+   
+ 
+}

@@ -1,0 +1,94 @@
+.scholarshipofficerpage{
+    background-color: rgb(230, 239, 247);
+   
+   
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+    align-items: center;
+}
+.applicentdata{
+    background-color: rgb(255, 254, 254);
+    height: fit-content;
+    width: 100%;
+    border: 1px solid rgb(89, 141, 89);
+    padding: 50px;
+     margin: 15px;
+     border-radius: 12px;
+     box-shadow: 5px 10px #888888;
+     display: flex;
+     flex-direction: row;
+    
+    
+}
+.applicentdata span{
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+   margin-left: 7rem;
+   margin-top: 3rem;
+   cursor: pointer;
+   margin: 2rem;
+
+    
+}
+.contentapplicents{
+    flex: 60%;
+    cursor: pointer;
+}
+.applicentimage{
+  height:18rem ;
+  width: 12rem;
+  margin-right: 15rem;
+  box-shadow: 5px 10px #ecd2d2;
+}
+.applicentimageslist{
+    height:18rem;
+    width: 12rem;
+}
+.applicationinputbox{
+    margin-top: 20px;
+}
+.applicationinputbox input{
+ height: 4vh;
+width: 50%;
+margin-left: 20px;
+border-radius: 10px;
+border:white;
+
+}
+.textareofficerpage{
+    border-radius: 9px;
+   border: white;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: inherit;
+
+}
+@media only screen and  (max-width:768px){
+    .applicentdata span{
+        font-weight: 500;
+        font-size: 22px;
+        
+    }
+    .applicentdata{
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .applicationinputbox input{
+    font-size: 18px;
+    }
+    .applicentimage{
+        margin-left: 18px;
+    }
+    .arrows{
+        margin-right: 20rem;
+    }
+}

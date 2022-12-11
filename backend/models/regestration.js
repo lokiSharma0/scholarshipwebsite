@@ -6,7 +6,6 @@ const regestrationSchama=new Schema({
     
     familiyname:{
         type:String,
-        unique:false,
         min:2,
         max:20,
     },
@@ -70,6 +69,21 @@ const regestrationSchama=new Schema({
         max:20,
         unique:true,
       
+    },
+    role:{
+        Student:{
+            type:Boolean,
+            default:true
+        },
+        isadmin:{
+            type:Boolean,
+            default:false
+        },
+        isscholarshipofficer:{
+            type:Boolean,
+            default:false
+        }
+
     }
 },
 {timestamps:true}

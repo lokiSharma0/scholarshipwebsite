@@ -1,0 +1,93 @@
+.body{
+    background-color: rgb(236, 233, 229);
+   
+}
+.app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.heading{
+    font-weight: 600;
+    text-align: center;
+    font-size: 29px;
+    margin-top: -0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.flex{
+    width: 33.33%;
+    background-color: white;
+    margin: 5px;
+    padding: 1%;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(239, 238, 241);
+    border-radius: 12px;
+  
+
+}
+.paragraph:hover{
+color: red;
+}
+.paragraph{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.scholarship-details{
+    font-weight: 600;
+    margin-left: 10%;
+    word-spacing: 2px;
+    cursor: pointer;
+   
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgb(245, 239, 239);
+    width: fit-content;
+    border-radius: 12px;
+    
+}
+.icons{
+    margin: 1px;
+}
+.scholarimg{
+    height: 25rem;
+    width: 40vw;
+    margin-left: 30rem;
+  
+}
+.button{
+    height: 2rem;
+    width: 23rem;
+    background-color: rgb(235, 156, 156);
+    color: aliceblue;
+}
+.button:hover{
+    background-color: red;
+}
+@media only screen and  (max-width:768px) {
+    .heading{
+        font-size: 29px;
+    }
+    .flex{
+        flex: 100%;
+    }
+    .paragraph{
+        font-size: 23px;
+    }
+    .info{
+        font-size: 20px;
+    }
+    .scholarimg{
+        display: none;
+    }
+
+}

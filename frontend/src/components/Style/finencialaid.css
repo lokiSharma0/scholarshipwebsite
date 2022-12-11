@@ -1,0 +1,54 @@
+.form2{
+    background-color: azure;
+    width:auto;
+    border: 5px solid rgb(194, 182, 226);
+    padding: 50px;
+    margin: 20px;
+    margin-top: 0.5rem;
+    box-shadow: 5px 10px #b85555;
+}
+.finencialsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.maindiv{
+    flex: 70%;
+    margin-left: 1rem;
+}
+.maindiv h2{
+ margin-right:35rem;
+ font-weight: 500;
+ color:blue;
+ 
+}
+
+.finencialadd{
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+}
+.pic{
+    height: 200px;
+    width: 200px;
+   top: 10rem;
+
+}
+.pic2{
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 45rem;
+  
+}
+
+@media only screen and  (max-width:768px) {
+    .finencialsection{
+        display: flex;
+        flex-direction: column;
+    }
+    form{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,66 @@
+.scholarshipdetails{
+    background-color: rgb(250, 242, 242);
+    margin-top: -1rem;
+    margin-bottom: 0.1rem;
+   
+}
+.scholarshipsumarrizeddetails h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.backicon{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.mianformofscholarshipdetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+}
+.scholarshipsumarrizeddetails{
+   
+    flex: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin-left: 2rem;
+}
+.adddetails{
+    flex: 20%;
+}
+.adddetails p{
+    margin-top: 20rem;
+}
+.description{
+    font-weight:500;
+    margin-left: 1rem;
+
+}
+
+.description h3{
+    text-decoration: underline;
+}
+.applyscholarshipbutton{
+    height: 3rem;
+    width: 30%;
+    background-color:rgb(94, 94, 223);
+    color: white;
+    margin-left: 30%;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+.applyscholarshipbutton:hover{
+    background-color: blue;
+}
+.adddetails{
+    font-weight: 200;
+    text-align: center;
+    font-size: 20px;
+}
+.applyscholarshipbutton:after{
+    opacity: 0.5;
+}
+

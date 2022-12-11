@@ -1,0 +1,60 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    background-color:white;
+    
+}
+
+
+.homesection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.homesection1{
+    flex: 50%;
+    margin-left: 1rem;
+}
+.homesection2{
+    flex: 50%;
+}
+.img2 {
+    height: 600px;
+    width: 450px;
+}
+.img3{
+    height: 200px;
+    width: 200px;
+    margin-left: 50rem;
+    margin-top: -10rem;
+}
+.heading3{
+    margin-left: 25rem;
+    margin-top: 15rem;
+}
+
+@media only screen and  (max-width:768px) {
+.homesection{
+    display: flex;
+    flex-direction: column;
+}
+.img3{
+    height: 200px;
+    width: 200px;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+.homesection1{
+    text-align: center;
+    padding: 0;
+}
+.heading3{
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+}

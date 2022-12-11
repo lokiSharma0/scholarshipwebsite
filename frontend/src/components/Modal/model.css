@@ -1,0 +1,120 @@
+.scholarshipapplicant-form{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(240, 234, 234);
+    border-radius: 12px;
+    height: 70%;
+    width: 60%;  
+    margin-left: 4rem;
+    margin-top: 3rem;
+    
+    
+}
+.background{
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(250, 250, 250);
+    border-radius: 12px;
+    height: 104%;
+    width: 100%;  
+    margin-left: 4rem;
+    opacity: 0.7;
+}
+.scholarshipapplicant-form h2{
+    color: gray;
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+}
+.model-content{
+    text-align: center;background: white;
+    height: fit-content;
+    box-shadow: 5px 10px #888888;
+    border-radius: 12px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.content{
+    margin: 19px;
+   
+}
+.content span{
+    font-weight: 500;
+
+} 
+.content label{
+    font-weight: 500;
+    
+}
+.cross{
+    margin-left: 98%;
+    cursor: pointer;
+}
+.cross:hover{
+    color: red;
+}
+.inputbox{
+    height: 2rem;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border-color: lightseagreen;
+   
+}
+.selectbox{
+    height: 2rem;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 19rem;
+    text-align: center;
+
+}
+.applicationbtn{
+    height: 2rem;
+    width: 20rem;
+    background: rgb(196, 233, 196);
+    margin-bottom: 1rem;
+    color: white;
+    cursor: pointer;
+    
+}
+.applicationbtn:hover{
+  background-color:  rgb(101, 212, 101);
+}
+.formerror{
+    color: red;
+    font-size: 12px;
+    margin-left: 10rem;
+}
+
+@media only screen and  (max-width:768px) {
+    .scholarshipapplicant-form{
+       
+        top: 70%;
+        left: 45%;
+        transform: translate(-50%,-50%);
+        height: 85%;
+        width: 100%;  
+    }
+   
+    .cross{
+        margin-left: 96%;
+    }
+    .selectbox{
+        margin-left: 6rem;
+       
+    }
+    .inputbox{
+        height: 40px;
+    }
+    .content span{
+        font-weight: 400;
+        font-size: 15px;
+    }
+}

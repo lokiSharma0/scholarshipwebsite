@@ -1,92 +1,163 @@
-.regestrationbody{
-    margin-top:-20px;
+
+.loginsections{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.imgboxs{
+  flex: 50%;
+  position: relative;
+  width: 50%;
+  height:auto;
 
 }
-.topbar{
-    height:67px;
-    width: 100%;
-    background-color: blueviolet;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    text-align: center;
-    position: relative;
+.loginsections .imgboxs:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(225deg,#e91e63,#03a9f4);
+  z-index: 1;
+  mix-blend-mode: screen;
 }
-.regestrationfrom{
-background-color: rgb(231, 204, 204);
-width: 400px;
-height:fit-content;
-margin-top: 5px;
-margin-left: 30%;
+.imgboxs img{
+  position: absolute;
+ height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.contentbxs{
+  display: flex;
+  position: relative;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+ 
+ 
+}
+.formbxs{
+width: 50%;
+
+}
+.h2s{
+color: #607d8b;
+font-weight: 600;
+font-size: 1.5em;
+text-transform: uppercase;
+margin-bottom: 20px;
+border-bottom: 4px solid#ff4584;
+display: inline-block;
+letter-spacing: 1px;
+}
+.inputbxs{
+margin-top: 20px;
+
+}
+.spans{
+font-size: 16px;
+margin-bottom: 5px;
+display: inline-block;
+color: #607db8;
+font-weight: 300;
+font-size: 16px;
+letter-spacing: 1px;
+}
+.flex1s{
+width: 100%;
+padding: 10px 20px;
+outline: none;
+font-weight: 400;
+border: 1px solid  #607d8b;
+font-size: 16px;
+letter-spacing: 1px;
+color: #607d8b;
+background: transparent;
+border-radius: 30px;
+
+}
+.creates p{
+color: #607d8b;
+
+}
+.h3s{
+color: #607d8b;
 text-align: center;
- border: 3px solid;
-  padding: 98px;
-  box-shadow: 10px 10px #888888;
-  
+margin: 50px 0 10px;
+font-weight: 500;
 }
-.gender{
-    font-size:20px;
-    margin-bottom:10px ;  
+.regestration{
+width: 80%;
+height: 40px;
+border: none;
+border-radius: 10px;
+margin-left:45px;
+background-color: rebeccapurple;
+color: wheat;
+margin-top:10px;
+cursor: pointer;
 }
-.radiobt{
-    margin:5px;
+.regestration:hover{
+background:purple;
+}
+
+.creates{
+
+margin-left: 20px;
+text-align: center;
+}
+
+.errorlogins{
+  color: red;
+  font-size: 10px;
+  text-align: center;
 
 }
-
-.flex{
-    align-items: center;
-    padding: 10px;
-    width: 90%;
-}
-h1{
-    text-align: center;
-}
-.mainform{
+@media(max-width:768px){
+  .radiobt{
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .imgboxs{
+    display: none;
+  }
+  .errorlogin{
+    font-size: 20px;
+  }
+  .contentbxs{
+    width: 100%;
+  }
+  .loginsections{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
-}
-.rgbtn{
-    width: 80%;
-    height: 40px;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    margin-left:45px;
-    background-color: rebeccapurple;
-    color: wheat;
-    margin-top:50px;
-    cursor: pointer;
-    margin-bottom: -80px;
-}
-.rshowbtn{
-
-   height:38px;
-   cursor: pointer;
-   background-color:blue;
-   color: white;
-   margin-top: 10px;
-   border-radius: 10px;
-
-
-}
-.errors{
-    color: red;
-    margin-top: -10px;
-    font-size: 10px;
-}
-.showPass{
-   display: flex;
-   flex-direction: row;
-}
-.footer{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-}
-.paragraph{
-   text-decoration: none;
-   
- 
+    width: 100%;
+  }
+  .spans{
+    font-size: 22px;
+  }
+  .flex1s{
+    font-size: 20px;
+  }
+  .radios{
+    margin: 5px;
+    padding: 5px;
+  }
+  .regestration{
+    width: 20rem;
+    height: 3rem;
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  .creates p{
+    font-size: 25px;
+  }
+  .paragraphs{
+    text-decoration: none;
+  }
 }

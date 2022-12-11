@@ -44,18 +44,12 @@ export const Validation =(student)=>{
    if(!student.password){
     error.password='Password required'
    }
-    if(student.password.length>5){
+    if(student.password.length<5){
     error.password='Use a strong Password'
    }
    else 
    if(!student.gender){
     error.gender='Select a gender'
    }
-   else 
-   if(student.password!==student.cpssword){
-    error.cpassword='Password not match founds'
-   }
-
-
    return error
 }

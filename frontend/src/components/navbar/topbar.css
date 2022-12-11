@@ -1,20 +1,15 @@
+
+
 .topbarcontainer{
-    height:67px;
+    height:100px;
     width: 100%;
     background-color: blueviolet;
     display: flex;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
-.logo{
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 10px;
-  color:white;
-  cursor: pointer;
- cursor: pointer;
-}
+
 .topleft{
     flex: 0.5;
 }
@@ -24,7 +19,7 @@ flex: 2;
 .topcenterlink{
     margin: 15px;
     color: white;
-    
+  
     
 }
 .link{
@@ -39,5 +34,86 @@ flex: 2;
     align-items: center;
     justify-content: space-around;
     color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
    
+}
+
+.toprightlink{
+  font-size:20px;
+  cursor: pointer;
+  margin-left: -110px;
+  font-style:italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  flex-direction: row;
+  
+}
+.icon{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+
+ 
+}
+.iconbtn{
+  border: none;
+ 
+}
+.logoutbtn{
+    background-color: red;
+    height: 40px;
+    width: 60px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px
+}
+.username{
+    margin-left:-50px;
+    flex: 2;
+}
+.img{
+  height:50px;
+  width: 250px;
+  margin-left: 10px;
+}
+
+
+@media only screen and  (max-width:768px) {
+
+  .mobileView{
+   height: auto;
+   width: 100vw;
+   background-color: blue;
+  
+    }
+    .topcenterlink{
+    display:none;
+    }
+    .topcenter{
+      display: block;
+    }
+    
+
+
+.viewmenue{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+.link{
+  margin: 6px;
+}
+.topbarcontainer{
+  background-color: white;
+}
+.icon{
+  margin-left: 10px;
+}
+
 }

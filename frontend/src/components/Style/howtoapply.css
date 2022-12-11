@@ -1,0 +1,38 @@
+.howtoapply{
+  margin-left: 2rem;
+}
+.instructions h1{
+    color: lightblue;
+}
+
+.step{
+font-size: 50px;
+font-weight: 600;
+height: 5rem;
+  width: 5rem;
+  background-color:blue;
+  border-radius: 50%;
+text-align: center;
+  color: white;
+  box-shadow: 5px 10px #888888;
+  margin-left: 50%;
+}
+.step1{
+  width:auto;
+  border: 2px solid rgb(23, 0, 235);
+  padding: 50px;
+  margin: 20px;
+  margin-top: 0.5rem;
+  box-shadow: 5px 10px #850202;
+}
+.p{
+
+  font-weight: 600;
+  
+}
+@media only screen and  (max-width:768px) {
+  .howtoapply{
+  font-weight: 600;
+  font-size: 27px;
+  }
+}

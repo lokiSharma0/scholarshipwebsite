@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+    .form{
+     text-align: center;
+     background-color: aquamarine;
+     margin-top:150px;
+     width: 300px;
+     border: 4px solid rgb(32, 44, 32);
+    padding: 50px;
+     margin: 20px;
+     margin-left:30rem;
+     box-shadow: 5px 10px #888888;
+    }
+    .password{
+        margin-bottom: 15px;
+        height:30px;
+        width: 100%;
+        
+    }
+    .button{
+        background-color: blue;
+        color: white;
+        height: 2rem;
+        width: 80%;
+    }
+</style>
+<!-- <script>
+    var  status="<%- JSON.stringify(status) %>";
+    if(JSON.parse(status)=="varified"){
+        if(confirm("Do You want to login?")){
+            window.location.href="http://localhost:5000/api/login"
+        }
+    }
+</script> -->
+<body>
+    <form class="form" action="" method="post"> 
+        <h1>Reset Your password</h1>
+       
+        <div >
+            <input class="password"  id="password" type="password" name="password" placeholder="New Password"/>
+        </div>
+        <div>
+            <input   class="password" id="confrompassword" type="password" name="confrompassword" placeholder="Conform password"/>
+        </div>
+       <input type="submit" class="button" value="submit"/>
+    </form>
+    
+</body>
+</html>

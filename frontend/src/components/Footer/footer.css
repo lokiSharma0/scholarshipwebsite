@@ -1,0 +1,116 @@
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background: linear-gradient(to right,#00093c,#2d0b00);
+  color: #fff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.logo{
+    height: 50px;
+    width: 250px;
+}
+.row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex:25%;
+    
+}
+.col  h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  
+}
+.email{
+    border-bottom:  1px solid rgb(16, 199, 98);
+    width: fit-content;
+    margin: 28px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: rgb(250, 2, 23);
+  }
+  .off {
+    color: #ccc;
+  }
+  .icons{
+    color: white;
+    padding: 9px;
+  }
+  hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+  }
+  .coppyright{
+    text-align: center;
+  }
+  .underline{
+    width: 100%;
+    height: 5px;
+    background-color: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+  }
+  .underline span{
+    width: 15px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    position:absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+  
+  }
+  @keyframes moving{
+     0%{
+      left: -20px;
+     }
+     100%{
+      left: 100%;
+     }
+  }
+  @media (max-width:600px){
+    footer{
+      bottom:unset;
+      text-align: center;
+      width: 100%;
+      font-size: 20px ;
+    }
+    .col{
+      flex:100%;
+      text-align: center;
+  }
+  .col p{
+    padding: 10px;
+  }
+ 
+  }

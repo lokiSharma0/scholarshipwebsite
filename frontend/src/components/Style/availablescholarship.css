@@ -89,5 +89,8 @@ color: red;
     .scholarimg{
         display: none;
     }
+    .button{
+        width: 90%;
+    }
 
 }

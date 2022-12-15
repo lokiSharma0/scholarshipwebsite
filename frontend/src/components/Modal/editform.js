@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState} from 'react'
 import  Axios  from 'axios';
 
 import { VscClose } from "react-icons/vsc";
@@ -16,7 +16,7 @@ export const Editform = ({edit,editabledata}) => {
     const handlecross=()=>{
       edit(false)
     }
-   
+  
    const handlemaineditbtn=async()=>{
     
      const url=`http://localhost:5000/api/scholarshipdataupdate/${editabledata._id}`
@@ -32,7 +32,7 @@ export const Editform = ({edit,editabledata}) => {
      }
        await Axios.put(url,elements)
        edit(false)
-      
+      alert("Data Updated Successfully")
    }
    
   return (

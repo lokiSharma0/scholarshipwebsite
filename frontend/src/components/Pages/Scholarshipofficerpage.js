@@ -1,4 +1,4 @@
-import {React,useState,useEffect,useCallback} from 'react'
+import {React,useState,useEffect} from 'react'
 import { Footer } from '../Footer/Footer'
 import { Topbar } from '../navbar/topbar'
 import { AiFillCaretUp } from "react-icons/ai";

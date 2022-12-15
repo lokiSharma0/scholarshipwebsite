@@ -158,3 +158,55 @@ margin-left: 2rem;
     margin-left: 97%;
     cursor: pointer;
 }
+@media only screen and  (max-width:768px){
+    .into p{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .showaddscholarshipbtn{
+        margin-left:40vmin;
+    }
+    .adminpagecontents h2{
+    margin-left: 1rem;
+    font-size: 30px;
+    }
+    .adminpagecontents{
+     margin-left: 1rem;
+     width: 94%;
+    }
+    .maincontents span{
+        font-size: 24px;
+    }
+    .maincontents input{
+        height: 3rem; ;
+        width:100% ;
+    }
+    .addscholarshipbtn{
+     margin-left:1rem;
+     font-size: 20px;
+     width: 90%;
+    }
+    .title{
+      font-weight: 700;
+      font-size: 30px;
+    }
+    .scholarshiplists{
+        display: flex;
+        flex-direction: column;
+    }
+    .scholarshipcontents{
+        width: 95%;
+    }
+    .scholarshipbuttons{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    .scholarshiplabels span{
+        font-size: 25px;
+    }
+    
+    .scholarshiplabels textarea{
+        width: 90%;
+    }
+}

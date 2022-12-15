@@ -1,0 +1,37 @@
+.text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.gpa-inputs{
+    margin-bottom: 2rem; 
+    text-align: center;  
+}
+.gpa-inputs input{
+    height: 2rem;
+    width: 30rem;
+    border-radius: 10px;
+   border-color: blueviolet;
+   text-align: center;
+}
+.gpa-inputs input:focus{
+outline: green;
+}
+.gpacheckbtn{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.gpacheckbtn button{
+    height: 3rem;
+    width: 30%;
+    background-color: blueviolet;
+    border-radius: 12px;
+    color: wheat;
+}
+.gpacheckbtn button:hover{
+    background: green;
+}
+.speedo-meter{
+   text-align: center;
+   
+}

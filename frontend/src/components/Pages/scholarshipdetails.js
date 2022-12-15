@@ -68,7 +68,7 @@ export const Scholarshipdetails = () => {
         </section>
     </article> 
     <Modal openModal={openModal} closefunction={toggleModalOpen} uniname={location.state.uni}/>
-
+     
     <Footer/>
     </>
   )
